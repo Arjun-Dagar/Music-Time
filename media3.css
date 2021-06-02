@@ -1,0 +1,12 @@
+.intro_para p{
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+#gift_card_image img {
+    margin-top: 16px;
+}
+
+#gift_card {
+    margin-top: 6px;
+}

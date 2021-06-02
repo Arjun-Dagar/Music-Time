@@ -1,0 +1,24 @@
+.intro_para p{
+    font-size: 0.9rem;
+}
+
+.nav_ul li a{
+    font-size: 0.95rem;
+}
+
+#tab_head {
+    padding: 25px 0px;
+}
+
+#tab_head strong{
+    font-size: 1.5rem;
+}
+
+#ending_head{
+    padding: 25px 0px;
+    padding-bottom: 30px;
+}
+
+#ending_head p{
+    font-size: 1.6rem;
+}

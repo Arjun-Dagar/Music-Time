@@ -1,0 +1,28 @@
+.intro_para p{
+    font-size: 1.4rem;
+}
+
+#intro h1{
+    font-size: 3rem;
+}
+
+#container{
+    flex-direction: column;
+}
+
+.binding_box{
+    width: 100%;
+}
+
+.binding_box:nth-child(1)
+{
+    margin-bottom: 23px;
+}
+
+#container h4{
+    padding-bottom: 3px;
+}
+
+#container hr{
+    margin-bottom: 3px;
+}

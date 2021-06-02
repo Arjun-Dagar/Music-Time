@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="first_page.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <ul class="nav_ul">
+            <li id="item-1"> <a href="#intro">myTunes</a> </li>
+            <li id="item-2"> <a href="#register">Overview</a> </li>
+            <li id="item-3"> <a href="#tab">Music</a> </li>
+            <li id="item-4"> <a href="#ending">Video</a> </li>
+            <li id="item-5"> <a href="#gift_card">Gift Cards</a> </li>
+        </ul>
+    </header>
+
+    <section id="intro">
+        <div id="animated_text">
+            <h1>myTunes</h1>
+        </div>
+        <div class="intro_para">
+            <p id="p-1">Your</p>
+            <p id="p-2">music,</p>
+            <p id="p-3">movies,</p>
+            <p id="p-4">and</p>
+            <p id="p-5">TV</p>
+            <p id="p-6">shows</p>
+            <p id="p-7">take</p>
+            <p id="p-8">center</p>
+            <p id="p-9">stage.</p>
+        </div>
+    </section>
+
+    <section id="register">
+        <div id="music">
+            <div id="logo">
+                <img src="/Images/music Logo.svg" alt="Logo">
+            </div>
+            <div id="music_text">
+                <strong>Music</strong>
+            </div>
+        </div>
+
+        <div id="music_count">
+            <strong>80 Billions songs with No Ads.</strong>
+        </div>
+
+        <div id="music_para">
+            <p>Stream over 80 billion songs, ad-free. Or download albums and tracks to listen to offline. All the music
+                in your personal myTunes library — no matter where it came from — lives right alongside the Orange Music
+                catalog. Start your free three-month trial with no commitment, and cancel anytime.</p>
+        </div>
+
+        <div id="music_button">
+            <button>Start Your Trail Now</button>
+        </div>
+
+        <div id="music_avail">
+            <p>Orange Music is available in myTunes, and for iOS and Android devices.</p>
+        </div>
+
+        <div id="music_image">
+            <img src="/Images/mockup1.png" alt="Image">
+        </div>
+    </section>
+
+    <section id="tab">
+        <div id="tab_head">
+            <strong>The movie and TV collection you always wished for Granted.</strong>
+        </div>
+
+        <div id="tab_para">
+            <p>With over 100,000 movies and TV shows to choose from, there’s always something great to watch on myTunes
+                and if you watch on Orange TV 4K, you’ll be able to enjoy a tremendous selection of your favorite
+                content in 4K HDR. So get ready to enjoy episodes of your favorite TV shows or hit movies you’ve been
+                waiting to see — anytime, anywhere. Just tap to play, or even download if you’re going somewhere you
+                won’t have Wi-Fi.</p>
+        </div>
+
+        <div id="tab_button">
+            <button>Read More</button>
+        </div>
+
+        <div id="tab_image">
+            <img src="/Images/mockup.jpeg" alt="Tab Image">
+        </div>
+    </section>
+
+    <section id="ending">
+        <div id="ending_head">
+            <p>A world of entertainment. Available wherever you are.</p>
+        </div>
+
+        <div id="ending_para">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur eos, dicta nisi, soluta quos
+                doloremque officiis quasi id voluptas nemo ratione eaque. Laborum, explicabo? Incidunt, sunt tempore quo
+                porro voluptatibus, ad facilis hic laudantium exercitationem quos voluptatum aperiam sapiente
+                reprehenderit placeat maxime nihil modi possimus repudiandae vitae! Deserunt, dolor nisi consequuntur
+                adipisci voluptatem nemo, nihil rem debitis ad provident pariatur!</p>
+        </div>
+    </section>
+
+    <section id="gift_card">
+        <div id="gift_card_image">
+            <img src="/Images/cards.png" alt=" Gift Cards">
+        </div>
+
+        <div id="gift_card_para">
+            <h3>Gift Cards</h3>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum corporis praesentium repudiandae
+                officia velit amet consequatur voluptatum quam aperiam dolor veniam esse nesciunt placeat repellat
+                magnam soluta, nihil eos et.</p>
+            <p>Already have an Orange MyTunes Music Gift Card?</p>
+            <hr>
+            <button>> Redeem</button>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div id="container">
+            <div id="box-1">
+                <h4>Shop&Learn</h4>
+                <hr>
+                <ul>
+                    <li> <a href = "#">Music</a></li>
+                    <li> <a href = "#">Movies</a></li>
+                    <li> <a href = "#">Shows</a></li>
+                    <li> <a href = "#">Apps</a></li>
+                    <li> <a href = "#">Gift Cards</a></li>
+                </ul>
+            </div>
+
+            <div id="box-2">
+                <h4>Orange Store</h4>
+                <hr>
+                <ul>
+                    <li> <a href = "#">Find a Store</a></li>
+                    <li> <a href = "#">Today at myTunes</a></li>
+                    <li> <a href = "#">Tunes camp</a></li>
+                    <li> <a href = "#">Financing</a></li>
+                    <li> <a href = "#">Order Status</a></li>
+                </ul>
+            </div>
+
+            <div id="box-3">
+                <h4>Eduction & Business</h4>
+                <hr>
+                <ul>
+                    <li> <a href = "#">Tunes and Education</a></li>
+                    <li> <a href = "#">Shop for college</a></li>
+                    <li> <a href = "#">Tunes and Business</a></li>
+                    <li> <a href = "#">Shop for Business</a></li>
+                    <li> <a href = "#">Jobs</a></li>
+                </ul>
+            </div>
+
+            <div id="box-4">
+                <h4>About myTunes</h4>
+                <hr>
+                <ul>
+                    <li> <a href = "#">Newsroom</a></li>
+                    <li> <a href = "#">myTunes Leadership</a></li>
+                    <li> <a href = "#">Investors</a></li>
+                    <li> <a href = "#">Events</a></li>
+                    <li> <a href = "#">Contact myTunes</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="copyright">
+        Copyright &copy 2021 myTunes
+    </section>
+</body>
+
+</html>

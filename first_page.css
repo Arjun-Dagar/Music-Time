@@ -1,0 +1,455 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* color: white; */
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+header{
+    background-color: rgb(56, 0, 0);
+    position: fixed;
+    width: 100%;
+}
+
+.nav_ul{
+    padding: 10px;
+    padding-left: 16px;
+    display: flex;
+    width: 39%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav_ul li {
+    list-style: none;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.nav_ul li:hover{
+    transform: translateY(-3px);
+}
+
+.nav_ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#intro {
+    height: 578px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 5rem;
+}
+
+#intro::before{
+    content: "";
+    background: url('/Images/Intro\ Wallpaper.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#intro h1{
+    position: relative;
+    font-size: 3.5rem;
+    margin-top: 102px;
+    color: rgb(0 0 0 / 0%);
+}
+
+#intro h1::before{
+    position: absolute;
+    content: "myTunes";
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+    border-right: 1px solid white;
+    animation: slide 2s infinite;
+}
+
+@keyframes slide {
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 100%;
+    }
+    100%{
+        width: 0%;
+    }
+}
+
+.intro_para{
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+}
+
+.intro_para p{
+    position: relative;
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 1px white;
+}
+
+#p-1::before{
+    content: "Your";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    color: white;
+    overflow: hidden;
+    animation: slide2 2s infinite;
+    /* animation-delay: 1s; */
+    animation-delay: 0.8s;
+}
+#p-2::before{
+    content: "music,";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    color: white;
+    overflow: hidden;
+    animation: slide2 2s infinite;
+    animation-delay: 0.8s;
+}
+#p-3::before{
+    content: "movies,";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    color: white;
+    overflow: hidden;
+    animation: slide2 2s infinite;
+    animation-delay: 0.8s;
+}
+#p-4::before{
+    content: "and";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    color: white;
+    overflow: hidden;
+    animation: slide2 2s infinite;
+    animation-delay: 0.8s;
+}
+#p-5::before{
+    content: "TV";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    color: white;
+    overflow: hidden;
+    animation: slide2 2s infinite;
+    animation-delay: 0.8s;
+}
+#p-6::before{
+    content: "shows";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    color: white;
+    overflow: hidden;
+    animation: slide2 2s infinite;
+    animation-delay: 0.8s;
+}
+#p-7::before{
+    content: "take";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    color: white;
+    overflow: hidden;
+    animation: slide2 2s infinite;
+    animation-delay: 0.8s;
+}
+#p-8::before{
+    content: "center";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    color: white;
+    overflow: hidden;
+    animation: slide2 2s infinite;
+    animation-delay: 0.8s;
+}
+#p-9::before{
+    content: "stage.";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    color: white;
+    overflow: hidden;
+    animation: slide2 2s infinite;
+    animation-delay: 0.8s;
+}
+
+@keyframes slide2 {
+    0%{
+        width: 0%;
+    }
+
+    50%{
+        width: 100%;
+    }
+
+    90%{
+        width: 100%;
+    }
+
+    100%{
+        width: 0%;
+    }
+}
+
+/* #intro::before{
+    content: '';
+    width: 100%;
+    height: 540px;
+    background: url('/Images/Intro\ Wallpaper.jpg') no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+} */
+
+#register{
+    background-color: #252529;
+}
+
+#music{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 38px;
+    padding-top: 35px;
+}
+
+#logo{
+    filter: invert(100%);
+    padding-top: 7px;
+}
+
+#logo img{
+    width: 28px;
+    padding: 8px 11px;
+}
+
+#music_text{
+    font-size: 2.3rem;
+    color: white;
+}
+
+#music_count{
+    text-align: center;
+    font-size: 1.6rem;
+    padding-bottom: 43px;
+    color: white;
+}
+
+#music_para{
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#music_para p{
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+}
+
+#music_button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+#music_button button{
+    background-color: red;
+    color: white;
+    padding: 14px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+#music_avail{
+    padding-bottom: 15px;
+}
+
+#music_avail p{
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+}
+
+#music_image{
+    text-align: center;
+}
+
+#music_image img{
+    width: 95%;
+}
+
+#tab_head{
+    padding: 50px 0px;
+}
+
+#tab_head strong{
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#tab_para{
+    padding-bottom: 22px;
+    width: 80%;
+    margin: auto;
+}
+
+#tab_para p{
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#tab_button {
+    text-align: center;
+    padding-bottom: 22px;
+}
+
+#tab_button button{
+    background-color: red;
+    border: 1px solid black;
+    padding: 6px 12px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+#tab_image {
+    text-align: center;
+}
+
+#tab_image img{
+    width: 100%;
+}
+
+#ending::before {
+    content: "";
+    position: absolute;
+    background: url('/Images/Faltu\ wallpaper.jpg')  no-repeat center center/cover ;
+    height: 65%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+#ending_head{
+    padding: 50px 0px;
+    padding-bottom: 30px;
+}
+
+#ending_head p{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+#ending_para{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+#ending_para p{
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+}
+
+#gift_card{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-top: 32px;
+}
+
+#gift_card_image img{
+    width: 93%;
+}
+
+#gift_card_para{
+    padding: 20px 10px;
+}
+
+#gift_card_para h3{
+    padding-bottom: 20px;
+}
+
+#gift_card_para p{
+    padding-bottom: 10px;
+}
+
+#gift_card_para hr{
+    margin-bottom: 10px;
+}
+
+#gift_card_para button{
+    border: none;
+    background: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+#gift_card_para button:hover{
+    color: rgb(17, 17, 223);
+}
+
+#footer{
+    background-color: #252529;
+    padding: 20px;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#container li{
+    list-style: none;
+    color: white;
+}
+
+#container li a{
+    text-decoration: none;
+    color: white;
+}
+
+#container li a:hover{
+    color: rgb(21, 255, 0);
+}
+
+#container h4{
+    padding-bottom: 5px;
+    color: white;
+}
+
+#container hr{
+    margin-bottom: 5px;
+}
+
+#copyright{
+    text-align: center;
+    background-color: #716363;
+    color: white;
+}
